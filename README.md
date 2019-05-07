@@ -12,4 +12,4 @@ lab. The directories are as follows:
  - `step-5` contains the code as at the end of _Upgrading to Google Maps SDK for iOS 3.0_
  - `step-6` contains the code as at the end of _Put Google on the Map_
 
-
+Note, these projects do not contain API Keys. You will need to follow the steps in the tutorial to add them.
