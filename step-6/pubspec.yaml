@@ -1,0 +1,21 @@
+name: google_maps_in_flutter
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^0.5.11
+  http: ^0.12.0+1
+  json_serializable: ^2.0.2
+
+dev_dependencies:
+  pedantic: ^1.4.0
+  build_runner: ^1.2.7
+  
+flutter:
+  uses-material-design: true
+
