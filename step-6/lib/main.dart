@@ -50,20 +50,20 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Google Office Locations'),
-            backgroundColor: Colors.green[700],
-          ),
-          body: GoogleMap(
-            onMapCreated: _onMapCreated,
-            initialCameraPosition: CameraPosition(
-              target: const LatLng(0, 0),
-              zoom: 2,
-            ),
-            markers: _markers.values.toSet(),
-          ),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Google Office Locations'),
+          backgroundColor: Colors.green[700],
         ),
-      );
+        body: GoogleMap(
+          onMapCreated: _onMapCreated,
+          initialCameraPosition: CameraPosition(
+            target: const LatLng(0, 0),
+            zoom: 2,
+          ),
+          markers: _markers.values.toSet(),
+        ),
+      ),
+    );
   }
 }
