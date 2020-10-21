@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   # Add the following line
-  google_maps_flutter: ^0.5.27+3
+  google_maps_flutter: ^1.0.3
 
 flutter:
   uses-material-design: true
