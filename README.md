@@ -1,3 +1,7 @@
+# Codelab code moved
+
+This codelab repository has been moved to [flutter/codelabs](https://github.com/flutter/codelabs/tree/master/google-maps-in-flutter).
+
 # google_maps_in_flutter
 
 The code steps for the Google Maps in Flutter codelab.
